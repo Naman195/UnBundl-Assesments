@@ -1,0 +1,23 @@
+1. HTML Structure:
+You have a well-structured HTML document with the necessary elements like head, meta, title, and body.
+The main content is enclosed in a <div class="container"> for styling purposes.
+
+2. CSS Styling:
+You've defined styles for the body, container, headings, chocolate options, selected chocolates, buttons, and modal.
+The styling enhances the appearance and readability of the application, with a pleasant color scheme and button interactions.
+
+3.JavaScript Logic:
+Chocolate options and their prices are defined as an array of objects in the chocolateOptions variable.
+The renderChocolateOptions function dynamically creates HTML elements for each chocolate option and appends them to the chocolate-options div.
+Event listeners are attached to the "Add" and "Remove" buttons for each chocolate option.
+The handleAddClick function adds a selected chocolate to the list and updates the total price. If the selection exceeds 8 chocolates, a modal is displayed to inform the user.
+The handleRemoveClick function removes a selected chocolate from the list and updates the total price.
+The renderSelectedChocolates function updates the displayed list of selected chocolates and the total price.
+
+4. Modal for Exceeding Selection Limit:
+You've implemented a modal (myModal) to inform the user when they try to select more than 8 chocolates.
+The modal is displayed when the selection limit is reached, and it can be closed by clicking the close button or outside the modal.
+
+5. Event Listeners and DOM Manipulation:
+Event listeners are used to trigger functions based on user interactions, such as button clicks.
+DOM manipulation is used to dynamically update the content of the page in response to user actions.
